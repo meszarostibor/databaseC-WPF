@@ -1,0 +1,48 @@
+﻿<Window x:Class="databaseWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:databaseWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox Name="listBox1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,229,217"/>
+        <RichTextBox Name="log" Margin="0,231,229,0" VerticalScrollBarVisibility="Auto">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text=""/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox x:Name="textBox1" Margin="687,11,0,0" TextWrapping="Wrap" Text="127.0.0.1
+                 " VerticalAlignment="Top" Width="94" HorizontalAlignment="Left"/>
+        <Label Content="IP:" HorizontalAlignment="Left" Margin="583,7,0,0" VerticalAlignment="Top" Height="26" RenderTransformOrigin="-1.265,0.382"/>
+        <Label Content="DataBase:" HorizontalAlignment="Left" Margin="583,87,0,0" VerticalAlignment="Top"/>
+        <Button Name="button1" Content="Create" HorizontalAlignment="Left" Margin="687,93,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.795,-0.57" Click="button1_Click" Width="47"/>
+        <Button Name="button2" Content="Drop" HorizontalAlignment="Left" Margin="734,93,0,0" VerticalAlignment="Top" Width="47" Click="button2_Click"/>
+        <Button Name="button3" Content="Select *" HorizontalAlignment="Left" Margin="687,118,0,0" VerticalAlignment="Top" Click="button3_Click" Width="94"/>
+        <TextBox Name="rendszam" HorizontalAlignment="Left" Margin="687,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94" MaxLength="8"/>
+        <Label Content="Rendszám:
+               " HorizontalAlignment="Left" Margin="583,146,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label Content="Márka:" HorizontalAlignment="Left" Margin="583,172,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.038,-0.397" Width="62"/>
+        <Label Content="Szín:
+               " HorizontalAlignment="Left" Margin="583,198,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.101,0.331" Width="68"/>
+        <Label Content="Végsebesség:
+               " HorizontalAlignment="Left" Margin="583,224,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="marka" HorizontalAlignment="Left" Margin="687,176,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94" MaxLength="8"/>
+        <TextBox x:Name="szin" HorizontalAlignment="Left" Margin="687,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94" MaxLength="8"/>
+        <TextBox x:Name="vegsebesseg" HorizontalAlignment="Left" Margin="687,228,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94" MaxLength="3"/>
+        <Button x:Name="button4" Content="Insert" HorizontalAlignment="Left" Margin="687,251,0,0" VerticalAlignment="Top" Width="94" Click="button4_Click"/>
+        <ComboBox Name="comboBox1" HorizontalAlignment="Left" Margin="687,284,0,0" VerticalAlignment="Top" Width="94"/>
+        <Button Name="button5" Content="Színek lekérése" HorizontalAlignment="Left" Margin="583,286,0,0" VerticalAlignment="Top" Width="92" Click="button5_Click"/>
+        <Button Name="button6" Content="Lekérés" HorizontalAlignment="Left" Margin="687,311,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.05,0.362" Width="94" Click="button6_Click"/>
+        <ComboBox x:Name="comboBox2" HorizontalAlignment="Left" Margin="687,343,0,0" VerticalAlignment="Top" Width="94"/>
+        <Button x:Name="button7" Content="Márkák lekérése" HorizontalAlignment="Left" Margin="583,344,0,0" VerticalAlignment="Top" Width="92" Click="button7_Click"/>
+        <Button x:Name="button8" Content="Lekérés" HorizontalAlignment="Left" Margin="687,370,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.05,0.362" Width="94" Click="button8_Click"/>
+        <TextBox x:Name="username" HorizontalAlignment="Left" Margin="687,34,0,0" TextWrapping="Wrap" Text="root" VerticalAlignment="Top" Width="94" MaxLength="8"/>
+        <Label Content="Felhasználó :" HorizontalAlignment="Left" Margin="583,30,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="687,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="94" MaxLength="8"/>
+        <Label Content="Jelszó:" HorizontalAlignment="Left" Margin="583,53,0,0" VerticalAlignment="Top" Width="68"/>
+    </Grid>
+</Window>
