@@ -33,3 +33,4 @@ D:\SULI\ADATB2\adatbazisC#\databaseC-WPF\databaseWPF\databaseWPF\bin\Debug\net8.
 D:\SULI\ADATB2\adatbazisC#\databaseC-WPF\databaseWPF\databaseWPF\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 D:\SULI\ADATB2\adatbazisC#\databaseC-WPF\databaseWPF\databaseWPF\obj\Debug\net8.0-windows\databaseWPF.csproj.AssemblyReference.cache
 D:\SULI\ADATB2\adatbazisC#\databaseC-WPF\databaseWPF\databaseWPF\obj\Debug\net8.0-windows\database.C950F581.Up2Date
+D:\SULI\ADATB2\adatbazisC#\databaseC-WPF\databaseWPF\databaseWPF\obj\Debug\net8.0-windows\databaseWPF.sourcelink.json

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\SULI\\ADATB2\\adatbazisC#\\databaseC-WPF\\databaseWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB52DAD6-B078-4090-9A23-9F6D19989AF2}|databaseWPF\\databaseWPF.csproj|d:\\suli\\adatb2\\adatbazisc#\\databasec-wpf\\databasewpf\\databasewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CB52DAD6-B078-4090-9A23-9F6D19989AF2}|databaseWPF\\databaseWPF.csproj|solutionrelative:databasewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB52DAD6-B078-4090-9A23-9F6D19989AF2}|databaseWPF\\databaseWPF.csproj|d:\\suli\\adatb2\\adatbazisc#\\databasec-wpf\\databasewpf\\databasewpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB52DAD6-B078-4090-9A23-9F6D19989AF2}|databaseWPF\\databaseWPF.csproj|solutionrelative:databasewpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB52DAD6-B078-4090-9A23-9F6D19989AF2}|databaseWPF\\databaseWPF.csproj|d:\\suli\\adatb2\\adatbazisc#\\databasec-wpf\\databasewpf\\databasewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB52DAD6-B078-4090-9A23-9F6D19989AF2}|databaseWPF\\databaseWPF.csproj|solutionrelative:databasewpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +26,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\SULI\\ADATB2\\adatbazisC#\\databaseC-WPF\\databaseWPF\\databaseWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "databaseWPF\\MainWindow.xaml",
@@ -38,13 +38,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\SULI\\ADATB2\\adatbazisC#\\databaseC-WPF\\databaseWPF\\databaseWPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "databaseWPF\\MainWindow.xaml.cs",
               "ToolTip": "D:\\SULI\\ADATB2\\adatbazisC#\\databaseC-WPF\\databaseWPF\\databaseWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "databaseWPF\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T17:55:41.92Z",
               "EditorCaption": ""

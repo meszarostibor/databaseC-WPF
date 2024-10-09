@@ -32,6 +32,7 @@ namespace databaseWPF
         {
             string connectionString = $"datasource={textBox1.Text};username={username.Text};password={password.Text};database=autok;";//datasource=localhost;port=3306
 
+
             //string query = ;
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
@@ -68,7 +69,8 @@ namespace databaseWPF
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            string connectionString = $"datasource={textBox1.Text};username={username.Text};password={password.Text};database=autok;";//datasource=localhost;port=3306
+            string connectionString = $"datasource={textBox1.Text};username={username.Text};password={password.Text};";//datasource=localhost;port=3306            
+
             string query = "CREATE DATABASE `autok`;CREATE TABLE `autok`.`auto` (`rendszam` VARCHAR(8) PRIMARY KEY NOT NULL, `marka` VARCHAR(8) NOT NULL, `szin` VARCHAR(8) NOT NULL, `vegsebesseg` INT NOT NULL ) ENGINE = InnoDB;INSERT INTO `autok`.`auto` (`rendszam`, `marka`, `szin`, `vegsebesseg`) VALUES('JSV743', 'Nissan', 'Fekete', '205');INSERT INTO `autok`.`auto` (`rendszam`, `marka`, `szin`, `vegsebesseg`) VALUES('RPL256', 'Suzuki', 'Ezüst', '175');INSERT INTO `autok`.`auto` (`rendszam`, `marka`, `szin`, `vegsebesseg`) VALUES('GSC247', 'Fiat', 'Zöld', '160');INSERT INTO `autok`.`auto` (`rendszam`, `marka`, `szin`, `vegsebesseg`) VALUES('LCK647', 'Opel', 'Fehér', '160');INSERT INTO `autok`.`auto` (`rendszam`, `marka`, `szin`, `vegsebesseg`) VALUES('DSK111', 'Jaguar', 'Piros', '240');INSERT INTO `autok`.`auto` (`rendszam`, `marka`, `szin`, `vegsebesseg`) VALUES('LSF333', 'Audi', 'Kék', '285');INSERT INTO `autok`.`auto` (`rendszam`, `marka`, `szin`, `vegsebesseg`) VALUES('MENO01', 'Ferrari', 'Piros', '310');INSERT INTO `autok`.`auto` (`rendszam`, `marka`, `szin`, `vegsebesseg`) VALUES('SRT660', 'Mercedes', 'Fehér', '330');INSERT INTO `autok`.`auto` (`rendszam`, `marka`, `szin`, `vegsebesseg`) VALUES('BKD178', 'Fiat', 'Sárga', '130');";
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
@@ -240,10 +242,6 @@ namespace databaseWPF
                 ReadDataBase($"SELECT * FROM `auto` WHERE marka like '{comboBox2.Text}';");
             }
         }
-
-
-
-
 
         public void WriteLog(string line) 
         {
